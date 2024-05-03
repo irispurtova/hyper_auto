@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: "Roboto";
+    letter-spacing: 0.7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inner {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Голова */
+
+.header {
+    background-color: #fff;
+    padding: 20px 10px;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    margin-left: 0px;
+}
+
+.main .container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bread-crumbs {
+    margin-left: 0px;
+    padding: 30px;
+}
+
+.bread-crumbs a {
+    color: black;
+}
+
+.main .container .left {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.main .container .left .categories {
+    width: 300px;
+    margin: 0px;
+    padding-left: 30px;
+}
+
+.main .container .left .categories .search {
+    padding: 10px 0px;
+    font-size: 18px;
+}
+
+.main .container .left .categories .search input[type="search"] {
+    width: 100%;
+    font-size: 18px;
+    padding: 4px 2px;
+    margin-top: 6px;
+}
+
+.main .container .left .categories .add-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    border-radius: 6px;
+    background-color: #178f45;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.main .container .left .categories a {
+    color: black;
+}
+
+.main .container .left .categories a:hover {
+    opacity: 0.8;
+}
+
+.main .container .left .categories .mini_cat {
+    padding-left: 30px;
+}
+
+.main .container .left .list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 5%;
+    align-content: flex-start;
+}
+
+.main .container .left .list .card {
+    width: 200px;
+    box-shadow: 0px 0px 12px 3px #78ce86;
+    padding: 10px;
+    margin: 0px 20px 20px 0px;
+    height: max-content;
+}
+
+.main .container .left .list .card .img img {
+    width: 200px;
+}
+
+.main .container .left .list .card .action {
+    display: flex;
+    flex-direction: row;
+}
+
+.main .container .left .list .card .text {
+    padding: 12px 0px;
+    height: 45px;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.main .container .left .list .card .action .upd,
+.del {
+    padding: 6px;
+    border-radius: 4px;
+    background-color: #178f45;
+}
+
+.main .container .left .list .card a {
+    color: white;
+}

@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: "Roboto";
+    letter-spacing: 0.7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inner {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Голова */
+
+.header {
+    background-color: #fff;
+    padding: 20px 10px;
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    margin-left: 0px;
+}
+
+.main .container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bread-crumbs {
+    margin-left: 0px;
+    padding: 30px;
+}
+
+.bread-crumbs a {
+    color: black;
+}
+
+.main .container .block-values {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.main .container .block-values #add {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.main .container .block-values #add .photo {
+    font-size: 18px;
+}
+
+.main .container .block-values #imageContainer {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+
+.main .container .block-values #imageContainer .imageWrapper {
+    width: 200px;
+    height: 150px;
+    margin: 0px 20px 20px 0px;
+}
+
+.main .container .block-values #imageContainer .imageWrapper .deleteButton {
+    position: relative;
+    top: 21px;
+    right: -180px;
+    cursor: pointer;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 0 3px;
+    border-radius: 50%;
+}
+
+.main .container .block-values #imageContainer .imageWrapper img {
+    width: 200px;
+    height: 150px;
+}
+
+.main .container .block-values #add select, input {
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    padding: 6px;
+    border-radius: 4px;
+    background-color: #178f45;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
