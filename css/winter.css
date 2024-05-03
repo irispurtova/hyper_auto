@@ -1,0 +1,61 @@
+.inner-bread-crumbs {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.bread-crumbs {
+    margin: 0px;
+    padding: 35px 0px;
+}
+
+.bread-crumbs a {
+    color: #1aa34f;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(26, 163, 79, .3);
+}
+
+.bread-crumbs a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.header {
+    margin-left: 0px;
+    margin: 46px 0px;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+.inner-header p {
+    font-size: 17px;
+    margin: 20px 0px;
+}
+
+.inner-header .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1170px;
+}
+
+.block {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    width: 100%;
+}
+
+.block .item {
+    margin: 0 0 40px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.block .item img {
+    max-width: 100%;
+}
+
+
+

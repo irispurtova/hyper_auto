@@ -1,0 +1,159 @@
+.banner {
+    padding: 25px 0px;
+    position: relative;
+}
+
+.banner .slider {
+    width: 1170px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .slider img {
+    width: 100%;
+    height: auto;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner .slider img.active {
+    display: block;
+}
+
+.banner .slider .banner {
+    position: relative; 
+}
+
+.banner .slider .prev, .banner .slider .next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    top: 50%; 
+    transform: translateY(-50%); 
+    height: 100%;
+}
+
+.banner .slider .prev {
+    left: 0;
+}
+
+.banner .slider .next {
+    right: 0;
+}
+
+.banner .slider .prev:hover, .banner .slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.inner .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner .container .tovars {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    transition-duration: 0.3s;
+    transform: translate(0px, 0px);
+    overflow: hidden;
+}
+
+
+
+
+.inner .container .tovars .carousel {
+    display: flex;
+    flex-direction: row;
+    transition-duration: 0.3s;
+    transform: translate(0px, 0px);
+    overflow: hidden; /* Скрыть все элементы, которые выходят за границы контейнера */
+    position: relative;
+}
+
+.inner .container .tovars .carousel1 {
+    display: flex;
+    flex-direction: row;
+    transition-duration: 0.3s;
+    transform: translate(0px, 0px);
+    overflow: hidden; /* Скрыть все элементы, которые выходят за границы контейнера */
+    position: relative;
+}
+
+
+.inner .container .tovars .carousel .tovar {
+    width: 212px;
+    margin: 0px auto;
+}
+
+.inner .container .tovars .carousel1 .tovar1 {
+    width: 212px;
+    margin: 0px auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.hidden1 {
+    display: none;
+}
+
+.inner .container .tovars .carousel .tovar img {
+    width: 175px;
+    height: 175px;
+}
+
+.inner .container .tovars .carousel .tovar a {
+    text-decoration: none;
+}
+
+.inner .container .tovars .tovar .title-class {
+    height: 38px;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    padding-bottom: 1px;
+}
+
+.inner .container .tovars .carousel1 .tovar1 img {
+    width: 175px;
+    height: 175px;
+    margin: 0px 5px;
+}
+
+.inner .container .tovars .carousel1 .tovar1 a {
+    text-decoration: none;
+}
+
+.inner .container .tovars .tovar1 .title-class {
+    height: 38px;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    padding-bottom: 1px;
+}
+
+.inner .container .tovars .tovar1 .price-class {
+    text-align: center;
+    font-size: 24px;
+    color: #1aa34f;
+    font-weight: bold;
+}
+
+.inner .container .tovars .tovar .price-class {
+    text-align: center;
+    font-size: 24px;
+    color: #1aa34f;
+    font-weight: bold;
+}

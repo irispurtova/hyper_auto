@@ -1,0 +1,345 @@
+.inner-bread-crumbs {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.bread-crumbs {
+    margin: 0px;
+    padding: 35px 0px;
+}
+
+.bread-crumbs a {
+    color: #1aa34f;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(26, 163, 79, .3);
+}
+
+.bread-crumbs a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+.inner-header {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 34px 0PX;
+}
+
+.header {
+    margin: 0px;
+}
+
+.top-inner-block {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+}
+
+.inner .container {
+    border: 1px solid #e8e8e8;
+    border-top: 0px;
+    padding: 0px;
+}
+
+.container--inner {
+    flex-direction: row;
+}
+
+.sort {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+
+}
+
+.view {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin: 0px;
+}
+
+.view_href:hover {
+    opacity: 0.8;
+}
+
+.center-inner-block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.center-inner-block .list-blocks {
+    display: flex;
+}
+
+.center-inner-block .list-blocks .block {
+    display: flex;    
+    border-bottom: 1px solid #e8e8e8;
+    width: calc(100% - 40px);
+    padding: 20px;
+}
+
+.center-inner-block .list-blocks .block .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.center-inner-block .list-blocks .block .description a {
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.center-inner-block .list-blocks .block .description .info {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px;
+}
+
+.center-inner-block .list-blocks .block .description .title,
+.rating,
+.info {
+    padding: 10px 20px;
+    margin-left: 0px;
+}
+
+.center-inner-block .list-blocks .block .description .title {
+    padding: 12px 20px;
+    height: 45px;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.center-inner-block .list-blocks .block .description .info .to-buy {
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.center-inner-block .list-blocks .block .description .info .to-buy .button-buy {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #1aa34f;
+    border-radius: 3px;
+    background: #1aa34f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+
+.center-inner-block .list-blocks .block .description .info .to-buy .price {
+    font-size: 24px;
+    color: #1aa34f;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.center-inner-block .list-blocks .block .description .info .to-buy .button-buy img {
+    width: 16px;
+    height: 17px;
+    margin-right: 10px;
+}
+
+.center-inner-block .list-blocks .block .image {
+    width: max-content;
+}
+
+.center-inner-block .list-blocks .block .image img {
+    width: 175px;
+    height: 175px;
+}
+
+.center-inner-block .list-blocks .block .description .info .text {
+    padding: 0;
+    margin-left: 0px;
+    width: 250px;
+    color: #b2b2b2;
+}
+
+.center-inner-block .list-blocks .block .description .info .text .text-descr {
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 0.5em;
+}
+
+.center-inner-block .list-blocks .block .description .info .text .text-descr::before {
+    content: '';
+    border-bottom: 1px dashed #b2b2b2;
+    flex-grow: 1;
+    order: 2;
+    margin: 0 5px;
+}
+
+.center-inner-block .list-blocks .block .description .info .text .value {
+    order: 3;
+}
+
+
+
+.center-inner-block .filters-block {
+    width: 30%;
+    padding: 30px 0px;
+    border-left: 1px solid #e8e8e8;
+}
+
+.center-inner-block .filters-block #search_form .price {
+    padding: 0px 30px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.center-inner-block .filters-block #search_form .price {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-inner-block .filters-block #search_form .price input[type='number'] {
+    width: 20%;
+    padding: 5px 10px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: 0.2s ease-in-out;
+}
+
+.center-inner-block .filters-block #search_form .price input[type='number']:focus {
+    outline: #1aa34f;
+    border: 1px solid #1aa34f;
+}
+
+.center-inner-block .filters-block #search_form .price h2 {
+    padding: 34px 20px 34px 0px;
+    margin-left: 0px;
+}
+
+.center-inner-block .filters-block #search_form .price .blocks-price {
+    display: flex;
+    align-items: center;
+}
+
+.center-inner-block .filters-block #search_form .brand h2 {
+    padding: 34px 20px 34px 0px;
+}
+
+.center-inner-block .filters-block #search_form .brand .arrow {
+    display: flex;
+}
+
+.center-inner-block .filters-block #search_form .brand {
+    padding: 20px 30px;
+    border-bottom: 1px solid #e8e8e8;
+    cursor: pointer;
+}
+
+#check-style {
+    color: #8d9191;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin: 10px 0px;
+}
+
+.button-submit {
+    display: flex;
+    padding: 20px 0px;
+}
+
+.button-submit input[type="submit"] {
+    min-height: 38px;
+    padding: 0 22px;
+    border: 1px solid #1aa34f;
+    border-radius: 3px;
+    background: #1aa34f;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.modal {
+    display: none; /* По умолчанию модальное окно скрыто */
+    position: fixed; /* Фиксированная позиция */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+    z-index: 9999; /* Наибольший z-index, чтобы модальное окно оказалось поверх других элементов */
+}
+
+.modal-content {
+    background-color: #fefefe; /* Цвет фона модального окна */
+    margin: 15% auto; /* Выравнивание модального окна по вертикали и горизонтали */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 1020px; /* Ширина модального окна */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Тень */
+    font-size: 15px;
+}
+
+.to-basket {
+    background-color: #f2f2f2; 
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.to-basket a {
+    text-decoration: none;
+}
+
+.to-basket .button-buy {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #1aa34f;
+    border-radius: 3px;
+    background: #1aa34f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+
+.modal-content .top {
+    display: flex;
+    align-items: center;
+}
+
+.modal-content .block .img {
+    width: 60px;
+    height: 60px;
+    margin: 0px;
+}
+
+.modal-content .block .img img {
+    width: 100%;
+}
+
+/* Закрыть кнопка */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,115 @@
+* {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.container {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.head .container {
+    justify-content: space-between;
+}
+
+.head .container a {
+    text-decoration: none;
+    color: black;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.auth {
+    margin: 0px;
+    padding: 20.5px 47px;
+    border-radius: 10px;
+    transition: background-color 0.4s ease-in-out;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.auth:hover {
+    background-color: #e8e8e8;
+    cursor: pointer;
+}
+
+.logo {
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+.basket {
+    display: flex;
+    flex-direction: row;
+    width: 236px;
+    padding: 10px 17px;
+    margin: 0px;
+    border-radius: 10px;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.basket:hover {
+    background-color: #e8e8e8;
+    cursor: pointer;
+}
+
+.basket .left {
+    margin-left: 0px;
+    margin-right: 30px;
+}
+
+.basket .left img {
+    width: 32px;
+    height: 35px;
+}
+
+.basket .right {
+    margin-left: 0px;
+}
+
+.basket .right .text {
+    font-size: 15px;
+}
+
+.menu {
+    background-color: black;
+    height: 50px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+}
+
+ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: background-color 0.3s ease-in-out;
+    padding: 10px 20px;
+}
+
+ul li:hover {
+    background-color: #2b2b2b;
+    cursor: pointer;
+}
+
+ul li .text {
+    margin-left: 15px;
+}
+
+ul li img {
+    width: 25px;
+    height: 25px;
+}
